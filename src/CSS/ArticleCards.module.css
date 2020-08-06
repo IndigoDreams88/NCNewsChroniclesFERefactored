@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+:hover {
+  text-decoration: none !important;
+}
+
+.upButton {
+  padding: "2px";
+  margin-left: "30px";
+  margin-right: "10px";
+}
+
+.downButton {
+  padding: "2px";
+  margin-left: "10px";
+}
+
+@media only screen and (max-width: 600px) {
+  .upButton {
+    margin-left: "0px";
+    margin-right: "0px";
+  }
+
+  .downButton {
+    padding: "0px";
+    margin-left: "0px";
+  }
+}

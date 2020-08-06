@@ -1,0 +1,21 @@
+.xButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.mainTitle {
+  font-size: 20px;
+}
+
+.subTitle {
+  font-size: 15px;
+  color: #17a2b8;
+}
