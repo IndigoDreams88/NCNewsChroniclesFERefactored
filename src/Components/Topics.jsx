@@ -124,7 +124,6 @@ class Topics extends Component {
                         </div>
                       );
                     })}
-                    ;
                   </div>
                 </Col>
               </Row>

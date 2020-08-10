@@ -8,6 +8,7 @@ import LoginPage from "./Components/LoginPage";
 import Topics from "./Components/Topics";
 import IndividualArticle from "./Components/IndividualArticle";
 import ErrorDisplay from "./Components/ErrorDisplay";
+import BrokenLinks from "./Components/BrokenLinks.jsx";
 
 class App extends Component {
   state = {
@@ -28,6 +29,15 @@ class App extends Component {
 
   render() {
     const { username, loggedIn } = this.state;
+
+    if (username === "" && loggedIn === "false") {
+      return (
+        <div>
+          <BrokenLinks path="/*" />
+        </div>
+      );
+    }
+
     return (
       <div>
         <NavbarLinks
