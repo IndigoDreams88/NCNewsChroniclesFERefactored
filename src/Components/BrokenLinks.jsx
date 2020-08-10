@@ -8,10 +8,10 @@ function BrokenLinks(props) {
       <Image
         src="/surprisedCat.jpg"
         roundedCircle
-        style={{ height: "200px", width: "200px" }}
+        style={{ height: "200px", width: "200px", marginTop: "60px" }}
       />
-      <h2>Whoops something went wrong!</h2>
-      <Button variant="info" as={Link} to="/">
+      <h2 style={{ margin: "5px" }}>Whoops something went wrong!</h2>
+      <Button variant="info" as={Link} to="/" style={{ margin: "5px" }}>
         Go back to homepage
       </Button>
     </div>

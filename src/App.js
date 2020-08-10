@@ -30,10 +30,21 @@ class App extends Component {
   render() {
     const { username, loggedIn } = this.state;
 
-    if (username === "" && loggedIn === "false") {
+    if (username === "" || loggedIn === "false") {
       return (
         <div>
-          <BrokenLinks path="/*" />
+          <center>
+            <NavbarLinks
+              setUsername={this.setUsername}
+              username={username}
+              loggedIn={loggedIn}
+              logOut={this.logOut}
+            />
+            <Router>
+              <LoginPage path="/" />
+              <BrokenLinks path="/*" />
+            </Router>
+          </center>
         </div>
       );
     }
