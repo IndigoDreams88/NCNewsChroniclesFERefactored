@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>nc-news-chronicles:</h1>
 
-## Available Scripts
+<h2>nc-news-chronicles is a full stack project that uses the following languages and technologies: Express, PSQL and Knex for the back end server and database queries, and React, CSS and HTML 5 for the front end user interface. This is the front end part of the project. If you wish to view the back end code please visit: https://github.com/IndigoDreams88/NCNewsChroniclesBERefactored To view the complete project please visit: https://friendly-wescoff-74185a.netlify.app/ </h2>
 
-In the project directory, you can run:
+<h3>Getting Started:</h3>
+<p1>To get started cd into the folder (or create the folder) on your computer where you want to download the files in this repo to, then type <i>"git clone "https://github.com/IndigoDreams88/NCNewsChroniclesFERefactored"</i> and enter your git username and password when prompted to do so. This will then clone a copy of the repo files and store them in your folder.</p1>
 
-### `npm start`
+<h3>Installation:</h3>
+<p1>Cd into the downloaded main project folder and open it on VS Code or a similar coding application using the command <i>"code ."</i>. Once the project is open in your coding application, type in the coding app terminal <i>"npm i"</i> to install the necessary app dependencies. Then type npm start, this will then open a localhost version of the project in your browser for you to use.</p1>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3>Logged in user:</h3>
+<p1>To use the site as a logged in user click the "Login as jessjelly" button on the login page. This will give you full access to the site to vote on articles and comments, and to post and delete comments.<p1>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<h3>Guest User:</h3>
+<p1>As a guest you will only be able to view and vote on articles and comments, but not post or delete any comments. To login as a guest click the "Login as guest" button on the login page.</p1>
 
-### `npm test`
+<h3>Built With:</h3>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Front end:
 
-### `npm run build`
+<ul>
+<li>React version ^16.12.0"</li>
+<li>Bootstrap</li>
+<li>CSS</li>
+<li>HTML 5</li>
+<li>Axios version ^0.19.1</li>
+</ul>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Authors</h3>
+<p1>Sams-chai-sorted - written by Sam</p1>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h3>Acknowledgments</h3>
+<p1>Special thanks to the Northcoders</p1>
